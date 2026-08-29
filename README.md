@@ -8,7 +8,6 @@ By **[Allan Niñal](https://github.com/allanninal)** — AI Solutions Engineer. 
 Full write ups with diagrams for each fix live at **[allanninal.dev/prestashop](https://www.allanninal.dev/prestashop/)**.
 
 [![Follow on GitHub](https://img.shields.io/github/followers/allanninal?label=Follow%20%40allanninal&style=social)](https://github.com/allanninal)
-[![Tests](https://github.com/allanninal/prestashop-fixes/actions/workflows/tests.yml/badge.svg)](https://github.com/allanninal/prestashop-fixes/actions/workflows/tests.yml)
 
 ## How the scripts work
 
@@ -130,6 +129,16 @@ Fighting a PrestaShop bug you would rather hand off? That is what I do.
 - GitHub: [github.com/allanninal](https://github.com/allanninal)
 - LinkedIn: [in/allanninal](https://www.linkedin.com/in/allanninal/)
 - Support the work: [ko-fi.com/allanninal](https://ko-fi.com/allanninal)
+
+## Tests
+
+Every fix ships with its test. Run them locally:
+
+```bash
+pip install requests pytest
+pytest -q
+node --test
+```
 
 ## License
 
